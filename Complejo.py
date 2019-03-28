@@ -6,11 +6,11 @@ class Complejo():
         self.real=real
         
     def conjugado(self):
-        return -imaginario
+        return -self.imaginario
     
     def calcula_norma(self):
-        return np.sqrt(imaginario**2 + real**2)
+        return np.sqrt(self.imaginario**2 + self.real**2)
             
-    def pow(self,n):
-        return (real+imaginario)**n
+    def pow(self, n):
+        return (self.real+self.imaginario)**n
         
