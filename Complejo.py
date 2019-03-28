@@ -5,12 +5,12 @@ class Complejo():
         self.imaginario=imaginario
         self.real=real
         
-    def conjugado():
+    def conjugado(self):
         return -imaginario
     
-    def calcula_norma():
+    def calcula_norma(self):
         return np.sqrt(imaginario**2 + real**2)
             
-    def pow(n):
+    def pow(self,n):
         return (real+imaginario)**n
         
